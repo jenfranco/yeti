@@ -6,6 +6,10 @@ Code for the test is in `src/App.js` and `src/App.css`
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Installs the necessary dependencies to run the app.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
