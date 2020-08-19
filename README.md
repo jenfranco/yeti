@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Yeti Take Home Test
 
+Code for the test is in `App.js` and `App.css`
+
 In the project directory, you can run:
 
 ### `yarn start`

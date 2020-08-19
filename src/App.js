@@ -1,6 +1,4 @@
 import React from 'react';
-//import './hamburger_menu.png';
-import './image.jpg';
 import './App.css';
 
 function App() {
