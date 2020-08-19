@@ -6,38 +6,52 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <nav className="navigation">
-        <div className="nav-item">Menu</div>
-        <button className="nav-hamburger-menu">
-          <img src={require('./icons/hamburger_menu.png')} />
-        </button>
-      </nav>
+      <header className="page-header">
+        <a className="logo" href="#">
+          <img src={require("./icons/logo_black.svg")} />
+        </a>
+        <nav className="navigation">
+          <div className="nav-item">Menu</div>
+          <button className="nav-hamburger-menu">
+            <img src={require('./icons/hamburger_menu.png')} />
+          </button>
+        </nav>
+      </header>
       <main className="main-container">
         <section className="about">
           <div className="about-header">About
           </div>
-          <div className="about-img-container">
-            <img className="about-img" src={require("./images/fruit/image.jpg")}/>
-            <div className="about-img-bg">
+          <div className="about-contents">
+            <div className="about-img-container">
+              <img className="about-img" src={require("./images/fruit/image.jpg")}/>
+              <div className="about-img-bg">
+              </div>
             </div>
+            <div className="about-stuff">
+              <div className="section-title about-title">
+                Andy Griffith turned us down.
+              </div>
+              <div className="section-text about-text">
+                Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer. That's why you always leave a note!
+              </div>
+            </div>
+            
           </div>
-          <div className="section-title about-title">
-            Andy Griffith turned us down.
-          </div>
-          <div className="section-text about-text">
-            Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his nice trailer. That's why you always leave a note!
-          </div>
+          
         </section>
         <section className="our-vision">
           <div className="section-header our-vision-header">
             Our vision
           </div>
-          <div className="section-title our-vision-title">
+          <div className="our-vision-contents">
+            <div className="section-title our-vision-title">
             Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
           </div>
           <div className="section-text our-vision-text">
             Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right.
           </div>
+          </div>
+          
         
         </section>
         <section className="our-values">
@@ -52,12 +66,15 @@ function App() {
           <div className="section-title our-values-title">
             Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
           </div>
-          <div className="section-text our-values-text">
-            Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right.
+          <div className="our-values-text-items">
+            <div className="section-text our-values-text">
+              Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're gonna be in a coma, all right.
+            </div>
+            <div className="section-text our-values-text">
+              Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down.
+            </div>
           </div>
-          <div className="section-text our-values-text">
-            Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer. That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down.
-          </div>
+          
         
         </section>
       </main>
