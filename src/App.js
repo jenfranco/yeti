@@ -25,7 +25,7 @@ function App() {
               <div className="about-img-bg">
               </div>
             </div>
-            <div className="about-stuff">
+            <div className="about-content-items">
               <div className="about-title">
                 Andy Griffith turned us down.
               </div>
