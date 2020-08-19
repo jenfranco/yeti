@@ -42,14 +42,14 @@ function App() {
           </div>
           <div className="our-vision-contents">
             <div className="our-vision-title">
-            Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
-          </div>
-          <div className="our-vision-text">
-            Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
-            That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down.
-            He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're
-            gonna be in a coma, all right.
-          </div>
+              Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
+            </div>
+            <div className="our-vision-text">
+              Army had half a day. Bad news. Andy Griffith turned us down. He didn't like his trailer.
+              That's why you always leave a note! Army had half a day. Bad news. Andy Griffith turned us down.
+              He didn't like his trailer. That's why you always leave a note! No… but I'd like to be asked! Oh, you're
+              gonna be in a coma, all right.
+            </div>
           </div>
         </section>
         <section className="our-values">
